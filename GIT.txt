@@ -1,0 +1,116 @@
+TO CREATE and CHECK USER NAME
+++++++++++++++++++++++++
+git config user.name "mohan learning"
+git config user.name
+
+git config --global user.email "email@example.com"
+
+git config --list
+
+git --help
+
+git help push
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mohanbabuusa/Documents.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/mohanbabuusa/Documents.git
+git branch -M main
+git push -u origin main
+
+git pull --rebase origin master
+
+git status
+git checkout master
+git checkout -b newtest
+
+ls-tlr
+
+git status
+
+vi testadd.txt
+
+git status
+git add filename
+
+git status
+git commit -m "new branch is added comment"
+git
+git pull
+git checkout master
+
+cat filename
+git merge master filename
+git status
+cat filename.txt
+
+git fetch
+git push
+
+git status
+
+push,pull,merge
+active, stale, default,your branched
+webhooks,deploykeys -functions
+deploykeys - integrate establish connection jenkins and git repos
+trigger jenkins job, pull job from version control system, then build will be proceeded
+using private key
+communication btwemm jenkins and VCS (private jenkins server) (public key will be in Git), username and pwd.
+
+ssh-keygen (creates public and private key)
+public key wth pub extension
+private key (rw)-only owner has permission
+public key (rw r r)
+755
+600 - private key
+
+push events receive notifications
+
+actions permisssions - getebooks
+=====================================================================
+
+Git lab - new project
+github - repos
+
+gitbash is interfact for both
+===========================Branch
+git branch branchname
+git checkout branchname
+git branch
+git checkout master
+
+git add .
+
+master is default branch
+
+git push origin
+git merge sourcebranch targetbranch
+
+==================================
+
+Revert and update
+
+git reset HEAD filename
+git reset HEAD~
+-------------------------------------
+Rename branch
+
+git branch -m oldname newname
+
+delete
+-------------
+git branch -D branchname
+
+git REBASE -- same as merge
+
+git rebase
+
+git stash
+before commit to revert the changes
