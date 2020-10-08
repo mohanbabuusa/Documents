@@ -9,3 +9,15 @@ resource "digitalocean_droplet" "kplabsdroplet" {
   region = "nyc1"
   size   = "s-1vcpu-1gb"
 }
+====================================================
+provider "aws" {
+  region     = "us-east-2"
+  access_key = "xxxxxxxxxxxxxxxxxxxxxxxx"
+  secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}
+
+resource "aws_instance" "myec2" {
+  ami = "ami-03657b56516ab7912"
+  instance_type = "t2.micro"
+}
+
