@@ -1,0 +1,19 @@
+pipeline {
+  agent any 
+  stages {
+    stage('one') {
+      steps {
+            echo 'Hi, I am mohan'
+            }
+          }
+     stage('two') {
+      steps {
+            echo 'Hi, I am mowshi'
+            }
+           }
+     stage('three') {
+      steps {
+            echo 'Hi, I am jkk'
+            }
+           }
+         }
